@@ -11,6 +11,10 @@ pyyaml = "*"
 uritemplate = "*"
 drf-yasg = "*"
 django-rest-swagger = "*"
+django-cors-headers = "*"
+django-ckeditor = "*"
+pillow = "*"
+wheel = "*"
 
 [dev-packages]
 
