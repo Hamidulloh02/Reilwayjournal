@@ -18,6 +18,7 @@ SECRET_KEY = 'django-insecure-cjc*6@5weex4o9yqyi=e^u2k^r+sns@_oga5_kazsc(wwk1&@0
 DEBUG = False
 
 ALLOWED_HOSTS = ['.pythonanywhere.app','127.0.0.1','*']
+CSRF_TRUSTED_ORIGINS = ['https://onlaynjurnal.up.railway.app']
 
 # Application definition
 
@@ -41,7 +42,6 @@ INSTALLED_APPS = [
     'allauth.account',
     "drf_yasg",
     'rest_framework_swagger',
-
     # mahally
     'posts.apps.PostsConfig',
     'corsheaders',
